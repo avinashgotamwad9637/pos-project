@@ -1,1 +1,2 @@
 # pos-project
+The POS (Point of Sale) Project is a web-based application designed to simplify and manage retail operations efficiently. It includes features like product listing, cart management, and billing, all powered by a mock JSON API. The system is responsive, dynamic, and built using modern web technologies.
