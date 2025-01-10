@@ -20,40 +20,39 @@
           <a href="#"><img src="images/bell.png" alt="" class="form-image"></a>
           <a href="#"><img src="images/user (1).png" alt="" class="form-image"></a>
           <a href="#"><img src="images/brightness.png" alt="" class="form-image"></a>
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-success fs-5 fw-bold" type="submit">Search</button>
         </form>
       </div>
     </nav>
   <div class="container-fluid Image-BackGound">
       <div class="row" >
         <div class="container-fluid col-lg-8">
-              <div class="category row" id="category">
+              <div class="row" id="category">
 
               </div>
               
-              <div class="row " id="products">
+              <div class="row" id="products">
             
               </div>
         </div>
-        <div class="col-lg-4">
-          <h1>Current Order</h1>
-          <button class="btn1" id="clear">Clear all</button>
-           <table class="table" id="card">
-
-             <thead>
-
-                <th>#</th>
-                <th>Name</th>
-                <th>Price</th>
-                <th>Qty</th>
-                <th>X</th>
-
-             </thead>
-             
-             <tbody>
-
-             </tbody>
-           </table>
+        <div class="col-lg-4 right-div">
+          <h1 class="text-center">Current Order</h1>
+          <button class="btn1 px-4 py-1 border-1 rounded fw-bold fs-5 btn btn-outline-success" id="clear">Clear all</button>
+          <table id="cart" class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--cart items will appear here -->
+            </tbody>
+        </table> 
+        <div id="totalBill" class="text-end fw-bold">Total: $0.00</div>       
         </div>
       </div>
 
